@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Collection Notifier</string>
+    <string name="name">Name</string>
+    <string name="trigger_pin">Trigger Pin</string>
+    <string name="echo_pin">Echo Pin</string>
+    <string name="notify_level">Notify Level</string>
+    <string name="view_all">View All</string>
+    <string name="add_new">Add New</string>
+    <string name="bin_text">75% Full</string>
+    <string name="edit">Edit</string>
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+    <string name="tune">Tune</string>
+    <string name="physical_button_pin">Physical Button Pin</string>
+    <string name="led_pin">Led Pin</string>
+</resources>

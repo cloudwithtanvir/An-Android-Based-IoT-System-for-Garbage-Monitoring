@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bin Name" />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_edit_text"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trigger Pin" />
+
+    <EditText
+        android:id="@+id/editText_trig_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/back_edit_text"
+        android:ems="10"
+        android:hint="@string/trigger_pin"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Echo Pin" />
+
+    <EditText
+        android:id="@+id/editText_echo_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/back_edit_text"
+        android:ems="10"
+        android:hint="@string/echo_pin"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notify Level" />
+
+    <EditText
+        android:id="@+id/editText_notify_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/back_edit_text"
+        android:ems="10"
+        android:hint="@string/notify_level"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Physical Button Pin" />
+
+    <EditText
+        android:id="@+id/editText_physical_button_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/back_edit_text"
+        android:ems="10"
+        android:hint="@string/physical_button_pin"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Led Pin" />
+
+    <EditText
+        android:id="@+id/editText_led_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/back_edit_text"
+        android:ems="10"
+        android:hint="@string/led_pin"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+
+    <Button
+        android:id="@+id/button_add_sensor"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="15dp"
+        android:text="Update" />
+
+</LinearLayout>
